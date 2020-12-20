@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  thymeleaf:
+    cache : false
+    enabled: true
+    prefix: classpath:/templates/
+    suffix : .html
+
+spring.application.name: Bootstrap Spring Boot
+
+template.default.name: temp1
